@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Pricing",
-  description: "This is the pricing page",
-  keywords: ["pricing", "page"],
+  title: 'Pricing',
+  description: 'This is the pricing page',
+  keywords: ['pricing', 'page'],
 };
 
 export default function PricingPage() {
