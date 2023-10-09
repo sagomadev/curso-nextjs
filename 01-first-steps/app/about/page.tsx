@@ -1,8 +1,17 @@
-/*
-  Con este ejemplo crear dos paginas mas
-  en el proyecto.
-  ContactPage y PricingPage
- */
+/* 
+Ejercicio: dado este ejemplo,
+añadir los metadatos de la página
+Pricing y Contact
+*/
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "This is the about page",
+  keywords: ["about", "page"],
+};
+
 export default function AboutPage() {
   return (
     <>
