@@ -1,16 +1,14 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pricing',
-  description: 'This is the pricing page',
-  keywords: ['pricing', 'page'],
+  title: 'Pricing Page',
+  description: 'Esta es la página de precios de mi servicio',
 };
 
 export default function PricingPage() {
   return (
     <>
-      <h1>Pricing</h1>
-      <p>This is the pricing page</p>
+      <span className='text-7xl'>Pricing Page</span>
     </>
   );
 }

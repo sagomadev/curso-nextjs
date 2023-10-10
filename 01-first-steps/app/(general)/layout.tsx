@@ -1,6 +1,6 @@
 import { Navbar } from '@/components';
 
-export default function AboutLayout({
+export default function GeneralLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -9,7 +9,7 @@ export default function AboutLayout({
     <>
       <Navbar />
       <main className='flex flex-col items-center p-24'>
-        <h1>Hello General Layout</h1>
+        <span className='text-lg'>Hola Mundo</span>
         {children}
       </main>
     </>

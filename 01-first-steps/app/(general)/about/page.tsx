@@ -1,16 +1,11 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'This is the about page',
-  keywords: ['about', 'page'],
+  title: 'SEO Title',
+  description: 'SEO Description',
+  keywords: ['About Page', 'Fernando', 'información', '...'],
 };
 
 export default function AboutPage() {
-  return (
-    <>
-      <h1>About</h1>
-      <p>This is the about page</p>
-    </>
-  );
+  return <span className='text-7xl'>About Page</span>;
 }
